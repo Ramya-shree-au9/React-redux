@@ -1,0 +1,220 @@
+.headerdiv {
+  margin-bottom: 57px;
+
+.cursorpoint{
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+.navmain {
+  margin-left: 10%;
+  color: white;
+  font-family: "Arima Madurai", cursive;
+}
+
+// searchbar ---start
+
+.nav_search {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 60%;
+  padding: 5px;
+  position: relative;
+}
+.searchResultRow {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 3% 1fr;
+  column-gap: 10px;
+  border-top: 1px solid rgb(228, 220, 220);
+}
+
+.searchresultCol {
+  margin-left: 10px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+
+  .searchresultimage {
+    width: 20px;
+    height: 100%;
+  }
+}
+
+.searchresulttitle {
+  margin-left: 15px;
+  font-size: 14px;
+  margin-bottom: 2px;
+  color: black;
+}
+
+.searchresultcategory {
+  margin-left: 15px;
+  font-size: 12px;
+  color: blue;
+}
+
+.searchinput {
+  width: 100%;
+  border: none;
+  // border-color: white;
+  outline: none;
+}
+
+// searchbar ----end
+
+ul {
+  display: flex;
+  align-content: space-between;
+  margin-top: 10px;
+  li {
+    text-decoration: none;
+    padding: 0% 10%;
+  }
+}
+
+Link {
+  text-decoration: none;
+}
+
+.col-md-5 {
+  background: rgba(0, 0, 255, 0.842);
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.contact-info img {
+  margin-bottom: 15%;
+}
+.contact-info h2 {
+  margin-bottom: 10%;
+}
+.col-md-7 {
+  padding: 3%;
+}
+
+.contact-form button {
+  width: 45%;
+}
+
+.footersection {
+  margin-left: 15px;
+}
+
+.registerLink {
+  margin-top: 30px;
+  font-size: 15px;
+}
+.imglogin {
+  height: 130px;
+  width: 150px;
+  margin-top: 14px;
+}
+#signupdisplay {
+  font-size: 14px;
+  padding: 3px;
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffff;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content Link {
+  color: black;
+  padding: 12px 8px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown .uparrow {
+  display: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .downarrow {
+  display: none;
+}
+.dropdown:hover .uparrow {
+  display: block;
+}
+.sellerheder{
+  margin-right: 25%;
+}
+
+.badge {
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 9px;
+}
+
+
+#lblCartCount {
+    font-size: 59%;
+    background: #ff0000;
+    color: #fff;
+    height: 2%;
+    vertical-align: top;
+    margin-left: -10px; 
+}
+
+}
+
+@media only screen and (max-width: 1400px) {
+.searchResultRow {
+top: 46px;
+width: 500px;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+.searchResultRow {
+top: 46px;
+width: 400px;
+}
+}
+@media only screen and (max-width: 991px) {
+.searchResultRow {
+border-top: 1px solid rgb(228, 220, 220);
+top: 84px;
+width: 445px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.searchResultRow {
+top: 84px;
+width: 350px;
+}
+}
+@media only screen and (max-width: 600px) {
+.searchResultRow {
+top: 84px;
+width: 197px;
+}
+}
